@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motorradmarkler</title>
+
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(43, 42, 42);
+        color: white;
+      }
+
+      .header-image {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.5);
+      }
+
+      .container {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 15px 30px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+
+      .menu-link {
+        color: white;
+        text-decoration: none;
+        margin-left: 16px;
+      }
+      .menu-link:hover {
+        text-decoration: underline;
+      }
+      .orange {
+        color: rgb(245, 130, 32);
+      }
+
+      .Logo {
+        height: 50%;
+        width: 50%;
+        object-fit: cover;
+        padding-top: 30px;
+      }
+      .Überschrift {
+        position: absolute;
+        left: 50px;
+        top: calc(27.33% - 1em);
+        color: white;
+        font-size: 50px;
+        width: 500px;
+        text-shadow: 5px 5px rgba(49, 47, 47, 0.5);
+      }
+
+      .Unterschrift1 {
+        position: absolute;
+        color: white;
+        top: calc(65.33% - 1em);
+        left: 50px;
+        width: 650px;
+        font-size: 20px;
+        text-shadow: 5px 5px rgba(49, 47, 47, 0.5);
+      }
+
+      h3 {
+        font-size: 50px;
+        text-align: center;
+      }
+      h4 {
+        font-size: 40px;
+        text-align: center;
+      }
+      .Beschreibung {
+        padding: 100px;
+        font-size: 36px;
+
+        padding: 100px;
+        font-size: 4cap;
+      }
+
+      @media (max-width: 700px) {
+        .Beschreibung {
+          font-size: 21px;
+          padding: 40px;
+        }
+        h3 {
+          font-size: 36px;
+        }
+        h4 {
+          font-size: 32px;
+        }
+        .Überschrift {
+          font-size: 22px;
+          width: 250px;
+          padding: 5px;
+        }
+        .Unterschrift1 {
+          font-size: 15px;
+          width: 250px;
+          padding: 5px;
+        }
+        .container {
+          font-size: 18px;
+        }
+        .Logo{
+          height: 80%;
+          width: 80%;
+          padding-top: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img class="header-image" src="/Backround.jpg.jpg" alt="" />
+    <div class="container">
+      <img class="Logo" src="/Logo.png" />
+      <div>
+        <a class="menu-link" href="#Vorteile">Vorteile</a>
+        <a class="menu-link" href="#Verkauf">Leistungen</a>
+        
+        <a class="menu-link" href="#Kosten">Gebühren</a>
+        <a class="menu-link Kontakt" href="#Kontakt">Kontakt</a>
+        <a class="menu-link" href="#Impressum">Impressum</a>
+      </div>
+    </div>
+
+    <h1 class="Überschrift">
+      Der <span class="orange">MotorradmNEUESACHENarkler</span> am Bodensee
+    </h1>
+
+    <h2 class="Unterschrift1">
+      Sie wünschen ein
+
+      <span class="orange">Motorrad</span>
+      seriös zum bestmöglichen 
+
+      <span class="orange">Marktwert </span>
+      zu verkaufen, <p>oder suchen ein passendes, Ihrem Budget entsprechendes,
+        Motorrad?</p> Ihr Motorradmarkler hilft Ihnen bei der Suche nach Ihrem
+      <span class="orange">Traumbike </span> oder dem reibungslosen Verkauf
+      Ihres Gebrauchten.
+    </h2>
+
+    <h3 id="Vorteile">
+      <p>IHRE VORTEILE</p>
+    </h3>
+    <div class="Beschreibung">
+      Absolute Anonymität bis zum Kaufabschluss
+      <p>Rechtssichere und faire Abwicklung</p>
+      Höherer Verkaufspreis und schnellerer Verkauf durch professionelle
+      Vermarktung
+      <p>Vermeidung von Fehlkäufen zu unfairen Preisen</p>
+      Zeitersparnis durch Wegfall von Telefonaten und Besichtigungen
+    </div>
+
+    
+
+    <h3 id="Verkauf">
+      <p>MEINE LEISTUNGEN BEIM <span class="orange">FAHRZEUGVERKAUF </span></p>
+    </h3>
+    <div class="Beschreibung">
+      - Persönliche Beratung
+      <p>- Kostenlose professionelle Fahrzeugbewertung</p>
+      - Fahrzeugaufbereitung / Kleinreparaturen / Fahrzeugtransport
+      <p>- HU-Abnahme / Abmeldeservice</p>
+      - Anfertigung aussagekräftiger Bilder
+      <p>- Detaillierte Erstellung von Inseraten auf div. Portalen</p>
+     - Kontakt zu Interessenten, inkl. Terminvereinbarung
+      <p>- Koordination von Besichtigungen/Probefahrten</p>
+      - Führen von Verhandlungsgesprächen
+      <p>- Regelung sämtlicher vertraglicher Angelegenheiten</p>
+      - Treuhandservice
+    </div>
+    <h3 id="Ankauf">
+      <p>MEINE LEISTUNGEN BEIM <span class="orange">FAHRZEUGANKAUF </span></p>
+    </h3>
+    <div class="Beschreibung">
+      
+      <p>- Kostenlose professionelle Fahrzeugbewertung</p>
+      - Fahrzeugtransport / Anmeldeservice
+      <p>- Kontakt zu Verkäufern, inkl. Terminvereinbarung </p>
+      - Koordination von Besichtigungen/Probefahrten 
+      <p>- Technische Bewertung des Fahrzeugs</p>
+     - Führen von Verhandlungsgesprächen
+      <p>- Regelung sämtlicher vertraglicher Angelegenheiten</p>
+    </div>
+    <h3 id="Kosten">
+      <p>GEBÜHREN
+
+      </p>
+    </h3>
+      <div class="Beschreibung">
+        Als Makler erhalte ich, nach erfolgreichem Abschluss einer 
+        Vermittlung, gestaffelt nach Höhe des Fahrzeugpreises, eine 
+        Provision von 3-9%. Dies wird vorab in einem Vermittlungsvertrag 
+        mit allen anderen Rahmenbedingungen und Ihren Wünschen festgelegt. 
+        <p>Eventuell nötige Zusatzleistungen wie Aufbereitung oder Servicearbeiten 
+          werden nach Aufwand berechnet.</p>
+
+      </div>
+    
+    <h3 id="Kontakt">
+      <p>KONTAKTIEREN SIE MICH</p>
+    </h3>
+    
+
+    <div  class="Beschreibung">
+      Christian Maier:
+      <p> Telefon: 0176 11633115 (auch WhatsApp)</p>
+      E-Mail: cmckfz@gmail.com
+</div>
+
+<h3 id="Impressum"><p>Impressum</p></h3>
+<div  class="Beschreibung">
+Redaktionelle und inhaltliche Verantwortung
+<p>Firma CMC Motorradmakler</p>
+
+-Kleinunternehmung -
+<p>Inhaber: Christian Maier</p>
+
+Falkenstr.8
+<p>78315 Radolfzell</p>
+
+Kontakt
+<p>Telefon: +49(0)176 11633115</p>
+
+E-Mail: cmckfz@gmail.com
+<p>Webseite: www.motorradmakler.com</p>
+</div>
+<h4><p>Haftungsausschluss</p></h4>
+<div  class="Beschreibung">
+  Sämtliche Informationen werden regelmäßig und sorgfältig, 
+  nach bestem Wissen und Gewissen, aktualisiert. 
+  <p>Eine Garantie 
+    für die Fehlerfreiheit, Genauigkeit und Vollständigkeit der 
+    Angaben kann die Firma CMC Motorradmakler (Inhaber: Christian
+     Maier) jedoch nicht übernehmen und schließt daher eine
+      Haftung für Verluste oder Schäden jeder Art, die direkt 
+      oder indirekt aus der Nutzung des Onlineangebotes dieser 
+      Website entstehen, aus.</p> Bei Verweisen auf fremde Webseiten
+     (Hyperlinks) haftet die Firma CMC Motorradmakler (Inhaber
+     : Christian Maier) nicht für die Inhalte auf diesen Seiten.
+     <p></p>
+      Für den Inhalt der verlinkten Seiten sind ausschließlich
+       deren Betreiber verantwortlich.
+</div>
+       <h4><p>Rechtswirksamkeit</p></h4>
+       <div id="Kontakt" class="Beschreibung">
+        Dieser Haftungsausschluss ist Teil unseres Internetangebotes. 
+        Sofern einzelne Formulierungen oder Teile dieses Textes der 
+        geltenden Rechtslage nicht mehr oder nicht mehr vollständig 
+        entsprechen, bleiben die übrigen Teile dieser Erklärung davon 
+        unberührt.
+<p></p>
+Urheberrecht:
+<p></p>
+Die Inhalte dieser Homepage sind urheberrechtlich geschützt und dürfen 
+ohne Einverständnis von der der Firma CMC Motorradmakler (Inhaber: Christian
+ Maier) nicht an anderer Stelle verwendet werden.
+</div>
+</div>
+  </body>
+</html>
+ 
